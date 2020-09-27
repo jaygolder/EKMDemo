@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EKMDemo.Web", "EKMDemo.Web\EKMDemo.Web.csproj", "{EE28945B-AF58-4DC4-9954-6B62314E4756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EKMDemo.Data", "EKMDemo.Data\EKMDemo.Data.csproj", "{F8FBEAD2-3721-409C-85CF-EAAE35D57255}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE28945B-AF58-4DC4-9954-6B62314E4756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE28945B-AF58-4DC4-9954-6B62314E4756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE28945B-AF58-4DC4-9954-6B62314E4756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE28945B-AF58-4DC4-9954-6B62314E4756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FBEAD2-3721-409C-85CF-EAAE35D57255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FBEAD2-3721-409C-85CF-EAAE35D57255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FBEAD2-3721-409C-85CF-EAAE35D57255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FBEAD2-3721-409C-85CF-EAAE35D57255}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {192A5A09-1A20-421E-87E2-ABDFC5F40A97}
+	EndGlobalSection
+EndGlobal
