@@ -1,8 +1,14 @@
-﻿@{
+﻿@using React.Web.Mvc
+@{
     ViewBag.Title = "React Demo";
 }
 
-<!DOCTYPE html>
-
 <h2>React Demo</h2>
 <p>This page features some examples of using ReactJS</p>
+
+<div>
+    @Html.React("Hello", new
+{
+
+})
+</div>
