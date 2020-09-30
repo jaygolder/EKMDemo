@@ -1,14 +1,4 @@
-﻿/*class Hello extends React.Component {
-    render() {
-        return (
-            <>
-                <div> Hello world </div>
-            </>
-        );
-    }
-}*/
-
-const StarsDisplay = props => (
+﻿const StarsDisplay = props => (
     <>
         {utils.range(1, props.count).map(starId => (
             <div key={starId} className="star" />
