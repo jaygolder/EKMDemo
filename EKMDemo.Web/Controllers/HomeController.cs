@@ -31,7 +31,7 @@ namespace EKMDemo.Web.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Jay Golder";
 
             return View();
         }

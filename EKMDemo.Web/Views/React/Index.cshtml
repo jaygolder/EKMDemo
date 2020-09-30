@@ -5,10 +5,23 @@
 
 <h2>React Demo</h2>
 <p>This page features some examples of using ReactJS</p>
-
-<div>
-    @Html.React("Hello", new
-{
-
-})
+<hr />
+@*<div>
+    @Html.React("Hello", new{})
 </div>
+*@
+<html>
+<head>
+    <title>Hello React</title>
+</head>
+<body>
+    <div id="content"></div>
+    <hr />
+    <div id="game"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.0/umd/react.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.0/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.min.js"></script>
+    <script src="@Url.Content("~/Scripts/App.jsx")"></script>
+    <script src="@Url.Content("~/Scripts/App2.jsx")"></script>
+</body>
+</html>

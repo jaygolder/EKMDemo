@@ -5,6 +5,9 @@
 }
 
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <div>There are @Model.Count() restaurants in the db.</div>
+    <h1>About</h1>
+    <p>This site was made with ASP.NET MVC 5. It features connectivity to a database, currently using SQL Server LocalDB.</p>
+    <p>The @Html.ActionLink("Restaurants", "Index", "Restaurants") page allows the user to add, edit, delete, and view details of restaurants.</p>
+    <p>There are currently @Model.Count() restaurants in the database.</p>
+    <p>The @Html.ActionLink("React", "Index", "React") page features some examples of using ReactJS for some simple dynamic UI components. </p>
 </div>
